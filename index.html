@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    
+    <form id="form">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="number" name="age" id="age" maxlength="2" placeholder="Age">
+        <select name="city">
+            <option value="Tehran">Tehran</option>
+            <option value="Shiraz">Shiraz</option>
+            <option value="Isfehan">Isfehan</option>
+            <option value="Tabriz">Tabriz</option>
+            <option value="Mashhad">Mashhad</option>
+            <option value="Yazd">Yazd</option>
+          </select>
+          <button type="submit" id="submit">Submit</button>
+          <div id="container"></div>
+    </form>
     <script src="./main.js"></script>
 </body>
 </html>
